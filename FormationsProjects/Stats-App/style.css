@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.presentation {
+    display: flex;
+    margin-left: 11rem;
+    height: 40vh;
+    width: 40%;
+    margin-top: 2rem;
+    float: left;
+    justify-content: center;
+    background-image: url(bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 2px #656565;
+
+}
+
+.explication {
+    padding: 3rem;
+    margin-bottom: 20rem;
+}
+
+.explication p {
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+
+.action-button {
+    position: absolute;
+    z-index: 1;
+    height: 15.4vh;
+    width: 40%;
+    margin-left: 11rem;
+    margin-top: 29rem;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 2px #656565;
+}
+
+.button {
+    padding: 38px;
+}
+
+#nombre {
+    align-items: center;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+    -moz-appearance: textfield;
+    border: 2px solid;
+    border-color: #fff;
+}
+
+
+#btnAdd{ 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    border-radius: 30px;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+
+#btnAdd:hover {
+    background-color: rgb(163, 177, 255);
+}
+
+#btnResult {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    border-radius: 30px;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+#btnResult:hover {
+    background-color: rgb(173, 255, 180);
+}
+
+#btnClear{ 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    border-radius: px;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+#btnClear:hover {
+    background-color: rgb(255, 124, 200);
+}
+
+.Resultat {
+    display: flex;
+    height: 60vh;
+    width: 40%;
+    margin-right: 11rem;
+    margin-top: 2rem;
+    float: right;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 2px #656565;
+}
+
+.txt {
+    float: left;
+    padding: 5rem;
+    text-align: right;
+}
+
+.txt p {
+    width: 100%;
+    margin: 61px;
+    margin-top: 0;
+}
+
+.nombre{
+    position: relative;
+    padding: 4rem;
+    margin-right: 5rem;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    margin: 30px;
+    margin-top: 0;
+    height: 3rem;
+    border: 1px solid;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    align-items: center; 
+    justify-content: center;
+}
+
+.vide {
+    position: absolute;
+    height: 15.4vh;
+    width: 40%;
+    margin-left: 11rem;
+    margin-top: 41rem;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 2px #656565;
+}
+
+.copyright {
+    position: absolute;
+    z-index: 1;
+    height: 15.4vh;
+    width: 40%;
+    margin-left: 61rem;
+    margin-top: 41rem;
+    background-image: url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 2px #656565;
+}
+
+.copyright-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 1rem;
+}
+
+
+
+@media only screen and (max-width: 1366px) and (max-height: 700px){
+
+    .presentation {
+        margin-left: 6rem;
+        height: 60vh;
+
+    }
+
+    .explication p {
+        margin-top: 2em;
+    }
+
+    .Resultat {
+        height: 76.5vh;
+        margin-right: 6em;
+
+    }
+
+    .action-button {
+        margin-left: 6em;
+        margin-top: 28em;
+    }
+
+    .button {
+        padding: 1.6em;
+    }
+
+    #nombre {
+        width: 12em;
+
+    }
+
+    .txt {
+        text-align: left;
+        padding: 0;
+        margin-top: 2.6em;
+        margin-left: 3em;
+        width: 100%;
+    }
+
+    .txt p {
+        width: 100%;
+        margin: 4.5em;
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
+    .nombre{
+        
+        padding: 3em;
+        margin-right: 4em;
+    }
+
+    .main {
+        margin: 2.4em;
+        margin-top: 0;
+    }
+
+    .vide {
+        width: 40%;
+        margin-left: 6em;
+        margin-top: 35em;
+    }
+    .copyright {
+        width: 40%;
+        margin-top: 35em;
+        margin-left: 42.8em;
+    }
+
+    .copyright-text {
+        margin-top: 3em;
+        margin-right: 1em;
+    }
+}
+

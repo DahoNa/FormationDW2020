@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <section class="presentation">
+
+        <div class="explication">
+
+            <h1>Programme d'analyses statistiques</h1>
+            <p>
+                <strong>Fonctionnalités du programme :</strong><br><br/>Ce programme permet de saisir au clavier une suite
+                de nombres entiers, d'en calculer la somme et la moyenne, et de déterminer le plus
+                petit et le plus grand des nombres saisis ; l'utilisateur doit pour cela <strong>'Ajouter'</strong> des nombres et cliquer ensuite sur le boutton <strong>'Resultat'</strong>.<br/>
+                Il peut aussi tout supprimer et recommencer sa saisie avec le boutton <strong>'Clear'</strong> .
+
+            </p>
+            
+        </div>
+
+    </section>
+
+    <section class="Resultat">
+        
+        <div class="txt">
+
+            <p>Le total de saisies :</p>
+            
+            <p>La somme de ces nombres :</p>
+
+            <p>La moyenne des nombres :</p>
+
+            <p>Le nombre le plus petit :</p>
+
+            <p>Le nombre le plus grand :</p>
+        </div>
+
+        <div class="nombre">
+
+            <span class="main" id="showTotal"></span>
+
+            <span class="main" id="showSum"></span>
+
+            <span class="main" id="showAverage"></span>
+
+            <span class="main" id="showMin"></span>
+
+            <span class="main" id="showMax"></span>
+
+        </div>
+
+    </section>
+
+    <section class="action-button">
+
+        <div class="button">
+
+            <input type="number" id="nombre" placeholder="  Entrer vos nombres ici"required></input>
+            <input type="button" id="btnAdd" value="Ajouter" onclick="addNumber();"></input>
+            <input type="button" id="btnResult" value="Resultat" onclick="showResult()"></input>
+            <input type="button" id="btnClear" value="Clear" onclick="nbClear()"></input>
+
+        </div>
+
+    </section>
+    
+    <section class="vide">
+
+    </section>
+
+    <section class="copyright"> 
+        <div class="copyright-text">
+            <p>&copy; FORMATION DWWM 2020 Daho Nahla</p>
+        </div>
+    </section>
+ 
+
+    <script src="https://kit.fontawesome.com/ec755d5e9f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
